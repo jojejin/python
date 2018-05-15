@@ -1,0 +1,530 @@
+Route/Routine.txt 0xf	0x2	0.03125
+Route/Routine.txt 0xb000	0x2002	0.0234375
+Route/Routine.txt 0x7000	0x2002	0.0234375
+Route/Routine.txt 0xf000	0x2002	0.046875
+Route/Routine.txt 0xe000	0x2002	0.0234375
+Route/Routine.txt 0xd000	0x2002	0.046875
+Route/Routine.txt 0xb000	0x1001	0.0234375
+a001 : c48
+Route/Routine.txt 0x3000	0x2002	0.0234375
+Route/Routine.txt 0x8000	0x1001	0.0234375
+a001 : 600
+Route/Routine.txt 0x1000	0x8008	0.0234375
+Route/Routine.txt 0xc000	0x2002	0.0234375
+Route/Routine.txt 0xf00	0x2002	0.0234375
+Route/Routine.txt 0xd000	0x1001	0.046875
+e00c : 65e
+Route/Routine.txt 0xf000	0x2002	0.0234375
+Route/Routine.txt 0xd	0x2	0.03125
+Route/Routine.txt 0xf000	0x8008	0.0234375
+Route/Routine.txt 0x1000	0x4004	0.0234375
+700c : 66e
+Route/Routine.txt 0x7000	0x8008	0.0234375
+Route/Routine.txt 0xf000	0x3003	0.03515625
+b : 63c
+Route/Routine.txt 0xa000	0x1001	0.0234375
+a001 : 878
+Route/Routine.txt 0x2000	0x1001	0.0234375
+e005 : 486
+Route/Routine.txt 0x1000	0x2002	0.0234375
+Route/Routine.txt 0x100	0x1001	0.0234375
+a001 : 898
+Route/Routine.txt 0x1	0x1110	0.03125
+aa70 : a1c
+Route/Routine.txt 0xd00	0x2002	0.0234375
+Route/Routine.txt 0xf000	0x1001	0.0234375
+a001 : ab0
+Route/Routine.txt 0x9000	0x2002	0.0234375
+Route/Routine.txt 0x4000	0x2002	0.0234375
+Route/Routine.txt 0x8000	0x4004	0.0234375
+a001 : 720
+Route/Routine.txt 0x6000	0x2002	0.0234375
+Route/Routine.txt 0xd000	0xc00c	0.03515625
+400a : 7ce
+Route/Routine.txt 0xb000	0x4004	0.0234375
+a001 : 798
+Route/Routine.txt 0xd0	0x22	0.0234375
+Route/Routine.txt 0xb00	0x9009	0.0263671875
+a001 : 95c
+Route/Routine.txt 0x7000	0x9009	0.0263671875
+f004 : 43c
+Route/Routine.txt 0xd	0x2220	0.03125
+Route/Routine.txt 0xe000	0x1001	0.0234375
+b000 : 5ce
+Route/Routine.txt 0xd000	0x4004	0.0234375
+8006 : 7ce
+Route/Routine.txt 0x1000	0x1001	0.046875
+100a : 794
+Route/Routine.txt 0xd000	0x8008	0.0234375
+Route/Routine.txt 0xb000	0x9009	0.052734375
+a001 : b9c
+Route/Routine.txt 0x3000	0x1001	0.0234375
+6002 : 42a
+Route/Routine.txt 0xd0	0x2200	0.0234375
+Route/Routine.txt 0x7000	0x1001	0.0234375
+a001 : 640
+Route/Routine.txt 0xf000	0x9009	0.0263671875
+a001 : 8a0
+Route/Routine.txt 0xd000	0x3003	0.03515625
+a001 : 10e8
+Route/Routine.txt 0x8	0x9990	0.0234375
+aa70 : 6d8
+Route/Routine.txt 0x10	0x11	0.0234375
+95 : 46c
+Route/Routine.txt 0xd	0x1110	0.03125
+a570 : 460
+Route/Routine.txt 0x800	0x9009	0.0263671875
+a001 : 6a8
+Route/Routine.txt 0x6000	0x1001	0.0234375
+a001 : 9c0
+Route/Routine.txt 0x8000	0x9009	0.052734375
+a001 : 9b8
+Route/Routine.txt 0xd00	0x1001	0.0234375
+a001 : 9ec
+Route/Routine.txt 0xf	0x2220	0.03125
+Route/Routine.txt 0xd0	0x1100	0.0234375
+aa00 : ae8
+Route/Routine.txt 0x2000	0xc00c	0.0263671875
+600d : 890
+Route/Routine.txt 0xb	0x9990	0.0234375
+5a70 : 4f0
+Route/Routine.txt 0x1	0x1	0.03125
+1 : d04
+Route/Routine.txt 0xf0	0x2200	0.0234375
+Route/Routine.txt 0x4000	0x9009	0.0263671875
+a001 : 8b4
+Route/Routine.txt 0xd	0x1	0.03125
+e : b12
+Route/Routine.txt 0x5000	0x9009	0.0263671875
+a001 : 410
+Route/Routine.txt 0xe000	0x9009	0.0263671875
+a001 : 724
+Route/Routine.txt 0xf000	0xc00c	0.03515625
+8003 : 8e8
+Route/Routine.txt 0x8	0x9	0.0234375
+1 : 864
+Route/Routine.txt 0x10	0x1100	0.0234375
+aa00 : 828
+Route/Routine.txt 0xc000	0x9009	0.0263671875
+a001 : 604
+Route/Routine.txt 0x6000	0x9009	0.0263671875
+a001 : e7c
+Route/Routine.txt 0xd000	0x9009	0.0263671875
+a001 : b60
+Route/Routine.txt 0xf000	0xd00d	0.0263671875
+a001 : d38
+Route/Routine.txt 0x2000	0x3003	0.0263671875
+a001 : 7e8
+Route/Routine.txt 0x80	0x99	0.0263671875
+ca : 40c
+Route/Routine.txt 0xf0	0x22	0.0234375
+Route/Routine.txt 0xb	0x9	0.0234375
+e : 7cc
+Route/Routine.txt 0xf000	0xb00b	0.0263671875
+5004 : 6e0
+Route/Routine.txt 0x1000	0xe00e	0.0263671875
+f00e : 660
+Route/Routine.txt 0xd0	0x11	0.0234375
+71 : 498
+Route/Routine.txt 0x80	0x9900	0.0263671875
+aa00 : 99c
+Route/Routine.txt 0xb0	0x99	0.0263671875
+9f : 4c2
+Route/Routine.txt 0xd000	0xd00d	0.0263671875600e : 65e
+0 - > { 0 :  0},{ 1 : 1b},{ 2 :  1},{ 3 :  1},{ 4 :  2},{ 5 :  2},{ 6 :  1},{ 7 :  0},{ 8 :  0},{ 9 :  0},{ a :  3},{ b :  1},{ c :  2},{ d :  1},{ e :  4},{ f :  1},
+1 - > { 0 :  0},{ 1 :  0},{ 2 :  0},{ 3 :  0},{ 4 :  0},{ 5 :  0},{ 6 :  0},{ 7 :  5},{ 8 :  0},{ 9 :  2},{ a :  0},{ b :  0},{ c :  1},{ d :  0},{ e :  0},{ f :  0},
+2 - > { 0 :  0},{ 1 :  0},{ 2 :  0},{ 3 :  0},{ 4 :  0},{ 5 :  1},{ 6 :  0},{ 7 :  0},{ 8 :  0},{ 9 :  0},{ a :  6},{ b :  0},{ c :  0},{ d :  0},{ e :  0},{ f :  0},
+3 - > { 0 :  0},{ 1 :  1},{ 2 :  0},{ 3 :  0},{ 4 :  1},{ 5 :  2},{ 6 :  3},{ 7 :  1},{ 8 :  2},{ 9 :  0},{ a : 1e},{ b :  1},{ c :  0},{ d :  0},{ e :  2},{ f :  2},
+Route/routine_round_2.txt 0xd	0x1100	0.0625
+e900 : 1200
+Route/routine_round_2.txt 0x8000	0x2002	0.09375
+Route/routine_round_2.txt 0xf000	0x20	0.0625
+Route/routine_round_2.txt 0x8000	0xc00c	0.0703125
+e009 : 1100
+Route/routine_round_2.txt 0xd000	0x2	0.0625
+Route/routine_round_2.txt 0x1000	0x2	0.0625
+Route/routine_round_2.txt 0xd000	0x20	0.0625
+Route/routine_round_2.txt 0x8000	0xd00d	0.052734375
+e009 : d80
+Route/routine_round_2.txt 0xd000	0x2200	0.0625
+Route/routine_round_2.txt 0x8	0x1001	0.09375
+e009 : 1c00
+Route/routine_round_2.txt 0xf	0x11	0.0625
+f9 : 1f00
+Route/routine_round_2.txt 0xb000	0x2002	0.09375
+Route/routine_round_2.txt 0xf000	0x22	0.0625
+Route/routine_round_2.txt 0xf	0x1100	0.0625
+e900 : 1100
+Route/routine_round_2.txt 0x8000	0x3003	0.0703125
+e009 : 1400
+Route/routine_round_2.txt 0xf	0x10	0.0625
+f0 : c00
+Route/routine_round_2.txt 0xd	0x1	0.0625
+9 : 900
+Route/routine_round_2.txt 0xf000	0x2200	0.0625
+Route/routine_round_2.txt 0x40	0x9009	0.052734375
+e009 : cf0
+Route/routine_round_2.txt 0xd000	0x22	0.0625
+Route/routine_round_2.txt 0xd	0x11	0.0625
+f9 : c00
+Route/routine_round_2.txt 0x1	0x1	0.0625
+9 : 1600
+Route/routine_round_2.txt 0xe0	0x9009	0.052734375
+e009 : 10e0
+Route/routine_round_2.txt 0xb000	0xc00c	0.0703125
+e009 : 1180
+Route/routine_round_2.txt 0xb	0x1001	0.09375
+e009 : 1000
+Route/routine_round_2.txt 0xd	0x10	0.0625
+f0 : 1100
+Route/routine_round_2.txt 0xd0	0x9009	0.052734375
+e009 : c00
+Route/routine_round_2.txt 0x800	0xb00b	0.052734375
+e009 : d80
+Route/routine_round_2.txt 0x60	0x9009	0.052734375
+e009 : 1260
+Route/routine_round_2.txt 0x80	0x9009	0.10546875
+e009 : 1980
+Route/routine_round_2.txt 0x50	0x9009	0.052734375
+e009 : cc0
+Route/routine_round_2.txt 0xf0	0x9009	0.052734375
+d009 : 6f0
+Route/routine_round_2.txt 0x70	0x9009	0.052734375
+e009 : e40
+Route/routine_round_2.txt 0xc0	0x9009	0.052734375
+e009 : db0
+Route/routine_round_2.txt 0xb0	0x9009	0.10546875
+e009 : 1d10
+Route/routine_round_2.txt 0x8	0xe00e	0.052734375
+c00b : 1010
+Route/routine_round_2.txt 0xb000	0x3003	0.0703125
+e009 : f00
+Route/routine_round_2.txt 0xb00	0xb00b	0.052734375
+e009 : f00
+Route/routine_round_2.txt 0xb	0xe00e	0.052734375
+e009 : ed0
+Route/routine_round_2.txt 0xb000	0xd00d	0.052734375
+e009 : d40
+Route/routine_round_2.txt 0x20	0x9900	0.052734375
+1900 : 910
+Route/routine_round_2.txt 0x20	0x99	0.052734375f9 : 1320
+0 - > { 0 :  0},{ 1 :  0},{ 2 :  0},{ 3 :  0},{ 4 :  0},{ 5 :  0},{ 6 :  0},{ 7 :  0},{ 8 :  0},{ 9 : 1a},{ a :  0},{ b :  1},{ c :  0},{ d :  0},{ e :  0},{ f :  0},
+1 - > { 0 :  0},{ 1 :  0},{ 2 :  0},{ 3 :  0},{ 4 :  0},{ 5 :  0},{ 6 :  0},{ 7 :  0},{ 8 :  0},{ 9 :  0},{ a :  0},{ b :  0},{ c :  0},{ d :  0},{ e :  0},{ f :  5},
+2 - > { 0 :  0},{ 1 :  0},{ 2 :  0},{ 3 :  0},{ 4 :  0},{ 5 :  0},{ 6 :  0},{ 7 :  0},{ 8 :  0},{ 9 :  3},{ a :  0},{ b :  0},{ c :  0},{ d :  0},{ e :  0},{ f :  0},
+3 - > { 0 :  0},{ 1 :  1},{ 2 :  0},{ 3 :  0},{ 4 :  0},{ 5 :  0},{ 6 :  0},{ 7 :  0},{ 8 :  0},{ 9 :  0},{ a :  0},{ b :  0},{ c :  1},{ d :  1},{ e : 16},{ f :  0},
+Route/routine_round_3.txt 0x60	0xa00a	0.140625
+700c : 2400
+Route/routine_round_3.txt 0xd000	0x88	0.125
+Route/routine_round_3.txt 0xf000	0x80	0.125
+Route/routine_round_3.txt 0x10	0x1001	0.1875
+700c : 3000
+Route/routine_round_3.txt 0xd000	0x1100	0.125
+7c00 : 2000
+Route/routine_round_3.txt 0x8000	0x2200	0.125
+Route/routine_round_3.txt 0xf000	0x40	0.125
+f0 : 2000
+Route/routine_round_3.txt 0x8000	0x22	0.125
+Route/routine_round_3.txt 0x8	0x2	0.125
+Route/routine_round_3.txt 0x1000	0x11	0.125
+fc : 2000
+Route/routine_round_3.txt 0x8000	0x20	0.125
+Route/routine_round_3.txt 0x70	0x4004	0.1875
+700c : 3000
+Route/routine_round_3.txt 0xf0	0x4004	0.1875
+700c : 3000
+Route/routine_round_3.txt 0x1000	0x10	0.125
+f0 : 2000
+Route/routine_round_3.txt 0x7	0x4	0.125
+c : 2000
+Route/routine_round_3.txt 0x80	0x2002	0.1875
+Route/routine_round_3.txt 0x1000	0x1100	0.125
+7c00 : 2000
+Route/routine_round_3.txt 0xf000	0x4400	0.125
+7c00 : 2000
+Route/routine_round_3.txt 0xb000	0x20	0.125
+Route/routine_round_3.txt 0x60	0x6006	0.140625
+700c : 2400
+Route/routine_round_3.txt 0x7000	0x40	0.125
+f0 : 2000
+Route/routine_round_3.txt 0xf000	0x8800	0.125
+Route/routine_round_3.txt 0x7000	0x4400	0.125
+7c00 : 2000
+Route/routine_round_3.txt 0xb000	0x2200	0.125
+Route/routine_round_3.txt 0xf	0x4	0.125
+c : 2000
+Route/routine_round_3.txt 0x7000	0x44	0.125
+fc : 2000
+Route/routine_round_3.txt 0xd000	0x8800	0.125
+Route/routine_round_3.txt 0xd000	0x80	0.125
+Route/routine_round_3.txt 0xf	0x8	0.125
+Route/routine_round_3.txt 0xf000	0x88	0.125
+Route/routine_round_3.txt 0xf000	0x44	0.125
+fc : 2000
+Route/routine_round_3.txt 0xd000	0x10	0.125
+f0 : 2000
+Route/routine_round_3.txt 0xf0	0x8008	0.1875
+Route/routine_round_3.txt 0x80	0xc00c	0.140625
+700c : 2400
+Route/routine_round_3.txt 0xd0	0x1001	0.1875
+700c : 3000
+Route/routine_round_3.txt 0xb0	0x2002	0.1875
+Route/routine_round_3.txt 0xe0	0x6006	0.140625
+700c : 2400
+Route/routine_round_3.txt 0xd000	0x11	0.125
+fc : 2000
+Route/routine_round_3.txt 0xb000	0x22	0.125
+Route/routine_round_3.txt 0xe0	0x5005	0.140625
+700c : 2400
+Route/routine_round_3.txt 0x80	0xd00d	0.10546875
+700c : 1b00
+Route/routine_round_3.txt 0x80	0x3003	0.140625
+700c : 2400
+Route/routine_round_3.txt 0xd	0x8	0.125
+Route/routine_round_3.txt 0xb	0x2	0.125
+Route/routine_round_3.txt 0xd	0x1	0.125
+c : 2000
+Route/routine_round_3.txt 0x90	0xc00c	0.140625
+700c : 2400
+Route/routine_round_3.txt 0xd0	0x8008	0.1875
+Route/routine_round_3.txt 0x1	0x1	0.125
+c : 2000
+Route/routine_round_3.txt 0x20	0x9009	0.2109375
+700c : 3600
+Route/routine_round_3.txt 0xa0	0xa00a	0.140625
+700c : 2400
+Route/routine_round_3.txt 0x90	0x3003	0.140625
+700c : 2400
+Route/routine_round_3.txt 0xa0	0x5005	0.140625
+700c : 2400
+Route/routine_round_3.txt 0xc0	0xb00b	0.10546875
+700c : 1b00
+Route/routine_round_3.txt 0x10	0xe00e	0.10546875
+700c : 1b00
+Route/routine_round_3.txt 0x70	0x7007	0.10546875
+700c : 1b00
+Route/routine_round_3.txt 0x50	0xe00e	0.10546875
+700c : 1b00
+Route/routine_round_3.txt 0x30	0xd00d	0.10546875
+700c : 1b00
+Route/routine_round_3.txt 0x50	0x7007	0.10546875
+700c : 1b00
+Route/routine_round_3.txt 0x40	0xb00b	0.10546875700c : 1b00
+0 - > { 0 :  0},{ 1 :  0},{ 2 :  0},{ 3 :  0},{ 4 :  0},{ 5 :  0},{ 6 :  0},{ 7 :  0},{ 8 :  0},{ 9 :  0},{ a :  0},{ b :  0},{ c : 1f},{ d :  0},{ e :  0},{ f :  0},
+1 - > { 0 :  0},{ 1 :  0},{ 2 :  0},{ 3 :  0},{ 4 :  0},{ 5 :  0},{ 6 :  0},{ 7 :  0},{ 8 :  0},{ 9 :  0},{ a :  0},{ b :  0},{ c :  0},{ d :  0},{ e :  0},{ f :  8},
+2 - > { 0 :  0},{ 1 :  0},{ 2 :  0},{ 3 :  0},{ 4 :  0},{ 5 :  0},{ 6 :  0},{ 7 :  0},{ 8 :  0},{ 9 :  0},{ a :  0},{ b :  0},{ c :  4},{ d :  0},{ e :  0},{ f :  0},
+3 - > { 0 :  0},{ 1 :  0},{ 2 :  0},{ 3 :  0},{ 4 :  0},{ 5 :  0},{ 6 :  0},{ 7 : 1b},{ 8 :  0},{ 9 :  0},{ a :  0},{ b :  0},{ c :  0},{ d :  0},{ e :  0},{ f :  0},
+Route/routine_round_4.txt 0x6	0x110	0.25
+ef0 : 4000
+Route/routine_round_4.txt 0x8	0x10	0.25
+f0 : 4000
+Route/routine_round_4.txt 0xd	0x1000	0.25
+3000 : 4000
+Route/routine_round_4.txt 0xf	0x100	0.25
+e00 : 4000
+Route/routine_round_4.txt 0x10	0x2	0.25
+Route/routine_round_4.txt 0x80	0x22	0.25
+Route/routine_round_4.txt 0x800	0x44	0.25
+f6 : 4000
+Route/routine_round_4.txt 0x6000	0x880	0.25
+Route/routine_round_4.txt 0xa000	0x8080	0.25
+Route/routine_round_4.txt 0xd000	0x8	0.25
+Route/routine_round_4.txt 0xe000	0x808	0.25
+Route/routine_round_4.txt 0xf000	0x8000	0.25
+Route/routine_round_4.txt 0x1	0x1	0.25
+6 : 4000
+Route/routine_round_4.txt 0x2	0x1001	0.375
+3006 : 6000
+Route/routine_round_4.txt 0xe	0x110	0.25
+ef0 : 4000
+Route/routine_round_4.txt 0x80	0x2200	0.25
+Route/routine_round_4.txt 0xd0	0x2	0.25
+Route/routine_round_4.txt 0xe0	0x202	0.25
+Route/routine_round_4.txt 0x2000	0x8008	0.375
+Route/routine_round_4.txt 0x8000	0x8800	0.25
+Route/routine_round_4.txt 0xd000	0x8000	0.25
+Route/routine_round_4.txt 0x8	0x11	0.25
+f6 : 4000
+Route/routine_round_4.txt 0xa	0x101	0.25
+e06 : 4000
+Route/routine_round_4.txt 0x80	0x20	0.25
+Route/routine_round_4.txt 0xf0	0x2000	0.25
+Route/routine_round_4.txt 0x800	0x4400	0.25
+3e00 : 4000
+Route/routine_round_4.txt 0xf00	0x400	0.25
+e00 : 4000
+Route/routine_round_4.txt 0x1000	0x8	0.25
+Route/routine_round_4.txt 0x8000	0x80	0.25
+Route/routine_round_4.txt 0x20	0x2002	0.375
+Route/routine_round_4.txt 0x600	0x440	0.25
+ef0 : 4000
+Route/routine_round_4.txt 0x900	0x44	0.25
+f6 : 4000
+Route/routine_round_4.txt 0xa00	0x404	0.25
+e06 : 4000
+Route/routine_round_4.txt 0xd00	0x4	0.25
+6 : 4000
+Route/routine_round_4.txt 0x7000	0x800	0.25
+Route/routine_round_4.txt 0x8000	0x88	0.25
+Route/routine_round_4.txt 0xb	0x10	0.25
+f0 : 4000
+Route/routine_round_4.txt 0x60	0x2020	0.25
+Route/routine_round_4.txt 0x70	0x200	0.25
+Route/routine_round_4.txt 0x8	0x1100	0.25
+3e00 : 4000
+Route/routine_round_4.txt 0x9	0x1100	0.25
+3e00 : 4000
+Route/routine_round_4.txt 0xf	0x1000	0.25
+3000 : 4000
+Route/routine_round_4.txt 0xa0	0x202	0.25
+Route/routine_round_4.txt 0x9000	0x88	0.25
+Route/routine_round_4.txt 0x6	0x1010	0.25
+30f0 : 4000
+Route/routine_round_4.txt 0xd	0x1	0.25
+6 : 4000
+Route/routine_round_4.txt 0xe	0x101	0.25
+e06 : 4000
+Route/routine_round_4.txt 0x9000	0x8800	0.25
+Route/routine_round_4.txt 0xf0	0x200	0.25
+Route/routine_round_4.txt 0x9	0x11	0.25
+f6 : 4000
+Route/routine_round_4.txt 0xd0	0x2000	0.25
+Route/routine_round_4.txt 0x200	0x4004	0.375
+3006 : 6000
+Route/routine_round_4.txt 0xe00	0x404	0.25
+e06 : 4000
+Route/routine_round_4.txt 0x6000	0x8080	0.25
+Route/routine_round_4.txt 0x90	0x2200	0.25
+Route/routine_round_4.txt 0xe00	0x440	0.25
+ef0 : 4000
+Route/routine_round_4.txt 0x7	0x100	0.25
+e00 : 4000
+Route/routine_round_4.txt 0x90	0x22	0.25
+Route/routine_round_4.txt 0xe0	0x220	0.25
+Route/routine_round_4.txt 0xa0	0x2020	0.25
+Route/routine_round_4.txt 0x100	0x4	0.25
+6 : 4000
+Route/routine_round_4.txt 0x800	0x40	0.25
+f0 : 4000
+Route/routine_round_4.txt 0x900	0x4400	0.25
+3e00 : 4000
+Route/routine_round_4.txt 0xe000	0x880	0.25
+Route/routine_round_4.txt 0xb00	0x40	0.25
+f0 : 4000
+Route/routine_round_4.txt 0xd00	0x4000	0.25
+3000 : 4000
+Route/routine_round_4.txt 0x600	0x4040	0.25
+30f0 : 4000
+Route/routine_round_4.txt 0x700	0x400	0.25
+e00 : 4000
+Route/routine_round_4.txt 0xb0	0x20	0.25
+Route/routine_round_4.txt 0x60	0x220	0.25
+Route/routine_round_4.txt 0xa00	0x4040	0.25
+30f0 : 4000
+Route/routine_round_4.txt 0xf00	0x4000	0.25
+3000 : 4000
+Route/routine_round_4.txt 0xf000	0x800	0.25
+Route/routine_round_4.txt 0xb000	0x80	0.25
+Route/routine_round_4.txt 0xa000	0x808	0.25
+Route/routine_round_4.txt 0xa	0x1010	0.2530f0 : 4000
+0 - > { 0 :  0},{ 1 :  0},{ 2 :  0},{ 3 :  0},{ 4 :  0},{ 5 :  0},{ 6 :  e},{ 7 :  0},{ 8 :  0},{ 9 :  0},{ a :  0},{ b :  0},{ c :  0},{ d :  0},{ e :  0},{ f :  0},
+1 - > { 0 :  0},{ 1 :  0},{ 2 :  0},{ 3 :  0},{ 4 :  0},{ 5 :  0},{ 6 :  0},{ 7 :  0},{ 8 :  0},{ 9 :  0},{ a :  0},{ b :  0},{ c :  0},{ d :  0},{ e :  0},{ f : 10},
+2 - > { 0 :  0},{ 1 :  0},{ 2 :  0},{ 3 :  0},{ 4 :  0},{ 5 :  0},{ 6 :  0},{ 7 :  0},{ 8 :  0},{ 9 :  0},{ a :  0},{ b :  0},{ c :  0},{ d :  0},{ e : 10},{ f :  0},
+3 - > { 0 :  0},{ 1 :  0},{ 2 :  0},{ 3 :  e},{ 4 :  0},{ 5 :  0},{ 6 :  0},{ 7 :  0},{ 8 :  0},{ 9 :  0},{ a :  0},{ b :  0},{ c :  0},{ d :  0},{ e :  0},{ f :  0},
+Route/routine_round_5.txt 0x1	0x1	0.5
+Route/routine_round_5.txt 0x2	0x2	0.5
+6 : 8000
+Route/routine_round_5.txt 0x3	0x3	0.5
+3 : 8000
+Route/routine_round_5.txt 0x4	0x4	0.5
+Route/routine_round_5.txt 0x5	0x5	0.5
+3 : 8000
+Route/routine_round_5.txt 0x6	0x6	0.5
+3 : 8000
+Route/routine_round_5.txt 0x7	0x7	0.5
+Route/routine_round_5.txt 0x8	0x8	0.5
+Route/routine_round_5.txt 0x9	0x9	0.5
+Route/routine_round_5.txt 0xa	0xa	0.5
+Route/routine_round_5.txt 0xb	0xb	0.5
+3 : 8000
+Route/routine_round_5.txt 0xc	0xc	0.5
+Route/routine_round_5.txt 0xd	0xd	0.5
+3 : 8000
+Route/routine_round_5.txt 0xe	0xe	0.5
+3 : 8000
+Route/routine_round_5.txt 0xf	0xf	0.5
+Route/routine_round_5.txt 0x10	0x10	0.5
+f0 : 8000
+Route/routine_round_5.txt 0x20	0x20	0.5
+a0 : 8000
+Route/routine_round_5.txt 0x30	0x30	0.5
+Route/routine_round_5.txt 0x40	0x40	0.5
+Route/routine_round_5.txt 0x50	0x50	0.5
+Route/routine_round_5.txt 0x60	0x60	0.5
+f0 : 8000
+Route/routine_round_5.txt 0x70	0x70	0.5
+f0 : 8000
+Route/routine_round_5.txt 0x80	0x80	0.5
+Route/routine_round_5.txt 0x90	0x90	0.5
+f0 : 8000
+Route/routine_round_5.txt 0xa0	0xa0	0.5
+Route/routine_round_5.txt 0xb0	0xb0	0.5
+Route/routine_round_5.txt 0xc0	0xc0	0.5
+Route/routine_round_5.txt 0xd0	0xd0	0.5
+Route/routine_round_5.txt 0xe0	0xe0	0.5
+f0 : 8000
+Route/routine_round_5.txt 0xf0	0xf0	0.5
+f0 : 8000
+Route/routine_round_5.txt 0x100	0x100	0.5
+700 : 8000
+Route/routine_round_5.txt 0x200	0x200	0.5
+200 : 8000
+Route/routine_round_5.txt 0x300	0x300	0.5
+Route/routine_round_5.txt 0x400	0x400	0.5
+700 : 8000
+Route/routine_round_5.txt 0x500	0x500	0.5
+700 : 8000
+Route/routine_round_5.txt 0x600	0x600	0.5
+Route/routine_round_5.txt 0x700	0x700	0.5
+Route/routine_round_5.txt 0x800	0x800	0.5
+Route/routine_round_5.txt 0x900	0x900	0.5
+700 : 8000
+Route/routine_round_5.txt 0xa00	0xa00	0.5
+Route/routine_round_5.txt 0xb00	0xb00	0.5
+Route/routine_round_5.txt 0xc00	0xc00	0.5
+700 : 8000
+Route/routine_round_5.txt 0xd00	0xd00	0.5
+700 : 8000
+Route/routine_round_5.txt 0xe00	0xe00	0.5
+Route/routine_round_5.txt 0xf00	0xf00	0.5
+Route/routine_round_5.txt 0x1000	0x1000	0.5
+1000 : 8000
+Route/routine_round_5.txt 0x2000	0x2000	0.5
+1000 : 8000
+Route/routine_round_5.txt 0x3000	0x3000	0.5
+1000 : 8000
+Route/routine_round_5.txt 0x4000	0x4000	0.5
+1000 : 8000
+Route/routine_round_5.txt 0x5000	0x5000	0.5
+1000 : 8000
+Route/routine_round_5.txt 0x6000	0x6000	0.5
+1000 : 8000
+Route/routine_round_5.txt 0x7000	0x7000	0.5
+1000 : 8000
+Route/routine_round_5.txt 0x8000	0x8000	0.5
+Route/routine_round_5.txt 0x9000	0x9000	0.5
+1000 : 8000
+Route/routine_round_5.txt 0xa000	0xa000	0.5
+1000 : 8000
+Route/routine_round_5.txt 0xb000	0xb000	0.5
+1000 : 8000
+Route/routine_round_5.txt 0xc000	0xc000	0.5
+1000 : 8000
+Route/routine_round_5.txt 0xd000	0xd000	0.5
+1000 : 8000
+Route/routine_round_5.txt 0xe000	0xe000	0.5
+1000 : 8000
+Route/routine_round_5.txt 0xf000	0xf000	0.51000 : 8000
+0 - > { 0 :  0},{ 1 :  0},{ 2 :  0},{ 3 :  6},{ 4 :  0},{ 5 :  0},{ 6 :  1},{ 7 :  0},{ 8 :  0},{ 9 :  0},{ a :  0},{ b :  0},{ c :  0},{ d :  0},{ e :  0},{ f :  0},
+1 - > { 0 :  0},{ 1 :  0},{ 2 :  0},{ 3 :  0},{ 4 :  0},{ 5 :  0},{ 6 :  0},{ 7 :  0},{ 8 :  0},{ 9 :  0},{ a :  1},{ b :  0},{ c :  0},{ d :  0},{ e :  0},{ f :  6},
+2 - > { 0 :  0},{ 1 :  0},{ 2 :  1},{ 3 :  0},{ 4 :  0},{ 5 :  0},{ 6 :  0},{ 7 :  6},{ 8 :  0},{ 9 :  0},{ a :  0},{ b :  0},{ c :  0},{ d :  0},{ e :  0},{ f :  0},
+3 - > { 0 :  0},{ 1 :  e},{ 2 :  0},{ 3 :  0},{ 4 :  0},{ 5 :  0},{ 6 :  0},{ 7 :  0},{ 8 :  0},{ 9 :  0},{ a :  0},{ b :  0},{ c :  0},{ d :  0},{ e :  0},{ f :  0},
