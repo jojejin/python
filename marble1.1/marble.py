@@ -69,7 +69,7 @@ class World():
     def __init__(self,mapName, userName,objectName,landName):
         self.map = pygame.image.load(mapName[0])
         self.screen = pygame.display.set_mode((1280,720))
-        land = setLand(landName)
+        land = setLands(landName)
         user = []
         for name in userName:
             user.append(User("./images/character/"+name+".png"))
@@ -78,15 +78,15 @@ class World():
             obj.append(Object("./images/button/"+name+".png",600,467))
         obj.append(Object("./images/button/"+objectName[0]+".png",600,467))
         window = []
-        self.objects=[land, obj, user, window,[],[]]
+        self.objects=[land, obj, [], user, window, []]
     def blit(self,a,b):
         self.screen.blit(a,b)
 
     def land(self):return self.objects[0]
     def obj(self):return self.objects[1]
-    def user(self):return self.objects[2]
-    def window(self):return self.objects[3]
-    def building(self):return self.objects[4]
+    def building(self):return self.objects[2]
+    def user(self):return self.objects[3]
+    def window(self):return self.objects[4]
     def text(self):return self.objects[5]
     def display(self):
         while True:
@@ -101,7 +101,7 @@ class World():
             pygame.display.update()
             time.sleep(0.05)
 
-def setLand(fileName):
+def setLands(fileName):
     landList = []
     file = open(fileName,'r')
     dics = {}
@@ -142,32 +142,47 @@ class Land():
         self.landhost = landhost
         self.ground = 0
 
-    def getLandProfile(self):
+    def getProfile(self):
         a = Object("./images/temp.png",500,300)
-        ab = self.landName + self.groundPrice + self.housePrice + self.buildingPrice + self.hotelPrice + self.landmarkPrice
+        ab = self.landName +" land's owner is "+ self.landhost
         a.Surf = self.font.render(ab,True,(0,0,0))
         a.Rect = self.Surf.get_rect()
-        a.Rect.move_ip(500,300)
         return a
     def mouseClick(world,pos):
         (w,h) = pos
         if len(world.window()):
             return 0
-        if 1<=(w//142)<8:
-             if 1<=(h//80)<8:
+        w //= 142; h //= 80
+        if 1 <= w < 8:
+             if 1 <= h < 8:
                 return 0
         world.window().append(Object("./images/info/info.bmp",440,238))
-        world.window().append(world.land()[whtoindex[str(w//142)+str(h//80)]].getLandProfile())
+        world.window().append(world.land()[whtoi[str(w)+str(h)]].getProfile())
 
     def mouseCheck(world,pos):
         (w,h) = pos
         if 0 == len(world.window()):
             return 0
-        if 3<=(w//142)<6:
-            if 3<=(h//80)<6:
+        w //= 142; h //= 80
+        if 3 <= w < 6:
+            if 3 <= h < 6:
                 return 0
         while 0 != len(world.window()):
             world.window().pop()
+
+whtoi ={"00":0,"10":1,"20":2,"30":3,"40":4,"50":5,"60":6,"70":7,"80":8,
+            "01":31,"81": 9,"02":30,"82":10,"03":29,"83":11,"04":28,"84":12,
+            "05":27,"85":13,"06":26,"86":14,"07":25,"87":15,"88":16
+            ,"78":17,"68":18,"58":19,"48":20,"38":21,"28":22,"18":23,"08":24
+            }
+            
+
+itowh ={0:"00",1:"10",2:"20",3:"30",4:"40",5:"50",6:"60",7:"70",8:"80",
+            31:"01",9:"81",30:"02",10:"82",29:"03",11:"83",28:"04",12:"84",
+            27:"05",13:"85",26:"06",14:"86",25:"07",15:"87",16:"88"
+            ,17:"78",18:"68",19:"58",20:"48",21:"38",22:"28",23:"18",24:"08"
+            }
+
 
 class User():
     population  = 0 
@@ -177,15 +192,12 @@ class User():
         self.Surf = pygame.image.load(location)
         self.Rect = self.Surf.get_rect()
         self.Rect.move_ip(w,h)
-        self.w = w
-        self.h = h
+        self.w, self.h = w , h
         self.index = 0
-        self.lands = []
+
         self.font = pygame.font.SysFont("comicsansms",30)
         self.money = 2000000
         self.text = self.font.render(str(self.money),True,(0,128,0))
-    def move_ip(self,w,h):
-        self.Rect.move_ip(w,h)
 
     def profileInfo(self,w,h):
         world.blit(self.Surf,(w,h))
@@ -215,19 +227,6 @@ class Object():
     def move_ip(self,w,h):
         self.Rect.move_ip(w,h)
         
-whtoindex ={"00":0,"10":1,"20":2,"30":3,"40":4,"50":5,"60":6,"70":7,"80":8,
-            "01":31,"81": 9,"02":30,"82":10,"03":29,"83":11,"04":28,"84":12,
-            "05":27,"85":13,"06":26,"86":14,"07":25,"87":15,"88":16
-            ,"78":17,"68":18,"58":19,"48":20,"38":21,"28":22,"18":23,"08":24
-            }
-            
-
-indextowh ={0:"00",1:"10",2:"20",3:"30",4:"40",5:"50",6:"60",7:"70",8:"80",
-            31:"01",9:"81",30:"02",10:"82",29:"03",11:"83",28:"04",12:"84",
-            27:"05",13:"85",26:"06",14:"86",25:"07",15:"87",16:"88"
-            ,17:"78",18:"68",19:"58",20:"48",21:"38",22:"28",23:"18",24:"08"
-            }
-
 def handle(world):
     while True:
         for event in pygame.event.get():
@@ -260,44 +259,27 @@ def buttonRange(pos, world):
     player = world.user()[(User.Table+3)%4]
     bbb = world.land()[player.index]
 
-    userpos=(player.w,player.h)
     if (650 <= w <=744 and 190 <= h <= 260):
-        buyLand(world, userpos, 0)
+        lander.ground = True
+        landRange(player.w, player.h, "Ground")
         player.subMoney( bbb.groundPrice)       
     elif (744 <= w <=838 and 190 <= h <= 260):
-        buyLand(world, 4)
+        lander.landmark = True
+        landRange(player.w, player.h, "Landmark.bmp")
         player.subMoney( bbb.housePrice)
     elif (838 <= w <=932 and 190 <= h <= 260):
-        buyLand(world, 3)
+        lander.hotel = True
+        landRange(player.w, player.h, "Hotel.bmp")
         player.subMoney( bbb.buildingPrice)
     elif (932 <= w <=1026 and 190 <= h <= 260):
-        buyLand(world, 2)
+        lander.building = True
+        landRange(player.w, player.h, "Building.bmp")
         player.subMoney( bbb.hotel)
     elif (1026 <= w <=1120 and 190 <= h <= 260):
-        buyLand(world, 1)
+        lander.house = True
+        landRange(player.w, player.h, "Village.bmp")
         player.subMoney( bbb.landmarkPrice)
 
-def buyLand(world, userpos,num):
-    visitor = world.user()[User.Table]
-    visitorLocation = visitor.index
-    lander = world.land()[visitorLocation]
-    (w, h) = userpos
-    print("PLAYER: %d %d", w, h)
-    if(num == 0):
-        lander.ground = True
-        landRange(w, h, "Ground")
-    elif(num ==1):
-        lander.house = True
-        landRange(w, h, "Village.bmp")
-    elif(nmu == 2):        
-        lander.building = True
-        landRange(w, h, "Building.bmp")
-    elif(num == 3):        
-        lander.hotel = True
-        landRange(w, h, "Hotel.bmp")
-    elif(num == 4):        
-        lander.landmark = True
-        landRange(w, h, "Landmark.bmp")
 
 def landRange(w, h, name):        
     if(1 <= w <= 7 and  0 == h):
@@ -324,9 +306,9 @@ def checkBuilding(name, w, h):
         world.building().append(Object("./images/building/blue"+name, w+48, h+80-31))
         print("USER: %d %d", w, h)
     elif(name=="Building.bmp"):
-        objects.windowinfo().append(Object("./images/building/blue"+name, w+24, h+20))
+        world.building().append(Object("./images/building/blue"+name, w+24, h+20))
     elif(name=="Hotel.bmp"):
-        objects.windowinfo().append(Object("./images/building/blue"+name, w, h+5))
+        world.building().append(Object("./images/building/blue"+name, w, h+5))
     elif(name=="Landmark.bmp"):
         print("Landmark")
     elif(name=="Ground"):
@@ -341,33 +323,31 @@ def Event_Arr(world):
     i=0
     if host=="":
         world.window().append(Object("./images/button/buy.png", 650, 190))
-        #objects.obj().append(Object("./images/text/blank.png", 630, 190))
-
     else:
         if checkNum(user.index, host):        
             if(Land.village+Land.building+Land.hotel == 3):
-                objects.windowinfo().append(Object("./images/text/landmark.png", 744, 190))
+                objects.window().append(Object("./images/text/landmark.png", 744, 190))
             else:
                 while(1):
                     if(i==3):
                         break
                     else:
                         if(Land.village == 0):                        
-                            objects.windowinfo().append(Object("./images/text/village.png", 838, 190))
+                            objects.window().append(Object("./images/text/village.png", 838, 190))
                             i+=1
                         elif(Land.building == 0):
-                            objects.windowinfo().append(Object("./images/text/building.png", 932, 190))
+                            objects.window().append(Object("./images/text/building.png", 932, 190))
                             i+=1
                         elif(Land.hotel == 0):
-                            objects.windowinfo().append(Object("./images/text/hotel.png", 1026, 190))
+                            objects.window().append(Object("./images/text/hotel.png", 1026, 190))
                             i+=1
 
 
 
 #########################################
 
-if __name__=="__main__":
-    file = open("init.txt",'r')
+def openInitFile(fileName):
+    file = open(fileName,'r')
     dics = {}
     while True:
         line = file.readline()
@@ -375,11 +355,13 @@ if __name__=="__main__":
         line = line.replace('\n','').split(' = ')
         dics[line[0]] = line[1].split(', ')
 
-    mapName = dics["map"]
-    userName = dics["user"]
-    objectName = dics["button"]
+    return dics["map"], dics["user"],  dics["button"]
+
+if __name__=="__main__":
+    mapName, userName, objectName = openInitFile("init.txt")
 
     world = World(mapName,userName,objectName,"Building.txt")
+
     t = threading.Thread(target=world.display, args=())
     t.daemon = True
     t.start()
