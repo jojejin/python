@@ -1,3 +1,0 @@
-map = ./images/maps/2.bmp
-user = grapes, pineapple, watermelon, strawberry
-button = button_before, button_after
